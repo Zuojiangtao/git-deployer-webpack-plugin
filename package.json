@@ -1,0 +1,31 @@
+{
+  "name": "git-deployer-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Git deployer plugin for webpack.",
+  "author": "zuojiangtao",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "git-deploy"
+  ],
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "hexo-fs": "^4.1.1",
+    "hexo-util": "^3.0.1",
+    "luxon": "^3.3.0",
+    "nunjucks": "^3.2.3",
+    "picocolors": "^1.0.0"
+  }
+}
