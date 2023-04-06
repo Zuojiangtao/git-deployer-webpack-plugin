@@ -19,9 +19,9 @@ module.exports = {
   plugins: [
     new GitDeployerWebpackPlugin({
       type: 'git',
-      repo: '/*your gitlab repo url*/',
+      repo: '/*your git repo url*/',
       branch: 'master',
-      public_dir: 'lib',
+      public_dir: 'lib', // the target file name you want to push
     })
   ],
 }
